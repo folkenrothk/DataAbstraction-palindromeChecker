@@ -1,9 +1,9 @@
-# TODO: Add the required docstring and any required imports of objects
-
+"""Test Suite: determine if each palindrome algorithm is working properly"""
 
 # Reference:
 # https://docs.pytest.org/en/6.2.x/
 
+from palindromechecker import palindrome
 
 def test_short_palindrome_word_recursive():
     """Ensure that a short word of "civic" works correctly."""
