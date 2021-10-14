@@ -1,3 +1,10 @@
-# TODO: Add the required docstring for this module
+"""Implement the utilities (reading booleans) needed for this program"""
 
-# TODO: implement the def get_human_readable_boolean(answer: bool) -> str function
+def human_readable_boolean(boolean: bool) -> str:
+    """Produce a human-readable Yes or No for a boolean value of True or False."""
+    # the provided answer is True
+    if boolean is True:
+        return "Yes, it is!"
+    # the provided answer is False
+    elif boolean is False:
+        return "No, it is not!"
