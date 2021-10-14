@@ -1,12 +1,24 @@
-# TODO: provide a descriptive docstring for the module
+"""Perform palindrome checking in CLI."""
 
-# TODO: import all of the required packages and modules
+# import all of the required packages and modules
+from enum import Enum
 
-# TODO: create the command-line interface object with typer
+import typer
 
-# TODO: define a PalindromeCheckingApproach enumeration with these options:
+from rich.console import Console
+
+# create the command-line interface object with typer
+cli = typer.Typer()
+
+# define a PalindromeCheckingApproach enumeration with these options:
 # --> "recursive": use the recursive approach described on page 129
 # --> "reverse": use the recursive approach described on page 164
+
+class PalindromeCheckingApproach(str, Enum):
+
+    is_palindrome_recursive = "recursive"
+    is_palindrome_reverse = "reverse"
+
 
 # TODO: implement a command-line interface using typer that produces
 # output like those examples included in the remainder of this file
