@@ -1,0 +1,68 @@
+---
+name: palindrome-checker
+break: true
+indent: 4
+---
+
+# Learn more about GatorGrader and its supported checks by visiting this web site:
+# https://github.com/GatorEducator/gatorgrader
+
+# Explanation:
+# --> a check without an "--exact" runs a count for an entity as an "at least"
+# --> checks below a file in a specified directory are for that specific file and directory
+# --> checks that appear stand-alone are for an entire Git repository
+
+# --> check the Python program
+palindromechecker/palindromechecker/main.py:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "class PalindromeCheckingApproach(str, Enum)" --count 1 --exact
+    CountMultipleLineComments --language Python --count 3
+    CountSingleLineComments --language Python --count 5
+
+# --> check the Python program
+palindromechecker/palindromechecker/palindrome.py:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    CountMultipleLineComments --language Python --count 5
+    CountSingleLineComments --language Python --count 2
+
+# --> check the Python program
+palindromechecker/palindromechecker/util.py:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    CountMultipleLineComments --language Python --count 2
+    CountSingleLineComments --language Python --count 2
+
+# --> check the Python program
+palindromechecker/tests/test_palindrome.py:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "test_" --count 4 --exact
+    CountMultipleLineComments --language Python --count 5
+
+# --> check the Python program
+palindromechecker/tests/test_main.py:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "test_" --count 4 --exact
+    CountMultipleLineComments --language Python --count 5
+
+# --> check the Python program
+palindromechecker/tests/test_util.py:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "test_" --count 2 --exact
+    CountMultipleLineComments --language Python --count 3
+
+# --> check the technical writing for various characteristics
+writing/reflection.md:
+    ConfirmFileExists
+    CountFileWords --count 500
+    CountMarkdownTags --tag "heading" --count 14
+    CountMarkdownTags --tag "code_block" --count 8
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
+
+# --> check that the number of commits in the Git repository is beyond a threshold
+CountCommits --count 10
