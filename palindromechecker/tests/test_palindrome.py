@@ -4,6 +4,7 @@
 # https://docs.pytest.org/en/6.2.x/
 
 from palindromechecker import palindrome
+from palindromechecker import main
 
 def test_short_palindrome_word_recursive():
     """Ensure that a short word of "civic" works correctly."""
