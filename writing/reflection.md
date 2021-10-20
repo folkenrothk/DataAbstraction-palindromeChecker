@@ -1,8 +1,6 @@
 # Palindrome Checking
 
-TODO: Delete all of the writing prompts and TODO markers from this file!
-
-## Add Your Name Here
+## Kate Folkenroth
 
 ## Program Output
 
@@ -13,16 +11,38 @@ TODO: Provide the complete command-line for your use of the `palindromechecker` 
 TODO: Provide the output for running `palindromechecker` in the following configurations:
 
 - Recursive:
-  - Input `word` is a palindrome
-  - Input `word` is not a palindrome
+  - Input `level` is a palindrome
+  `/`
+  
+  ```
+  ```
+
+  - Input `hello` is not a palindrome
+  `/`
+
+  ```
+  ```
 
 - Reverse:
   - Input `word` is a palindrome
+  `/`
+
+  ```
+  ```
+
   - Input `word` is not a palindrome
+  `/`
+
+  ```
+  ```
 
 ### What is the output from running the test suite with test coverage monitoring?
 
 TODO: Provide the command that you used to run the coverage tracking for the test suite
+`/`
+
+```
+```
 
 ## Source Code
 
@@ -30,17 +50,20 @@ TODO: Provide the command that you used to run the coverage tracking for the tes
 
 #### An example of a test case for the command-line interface of the `palindromechecker`
 
-TODO: Use a fenced code block to provide the requested source code
+```
+```
 TODO: Write at least one paragraph to explain the request source code
 
 #### An example of a test case for the `util` module of the `palindromechecker`
 
-TODO: Use a fenced code block to provide the requested source code
+```
+```
 TODO: Write at least one paragraph to explain the request source code
 
 #### An example of a test case for the `palindrome` module of the `palindromechecker`
 
-TODO: Use a fenced code block to provide the requested source code
+```
+```
 TODO: Write at least one paragraph to explain the request source code
 
 ## Professional Development
