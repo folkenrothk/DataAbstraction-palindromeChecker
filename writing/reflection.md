@@ -130,14 +130,12 @@ TODO: Write at least one paragraph to explain the request source code
 
 ### Think of an appropriate activity that you associate with play. Make a list of the characteristics of that activity that make it seem playful. Are software testing and debugging also playful activities with the same characteristics? Why or why not?
 
-TODO: Provide a two-paragraph response that answers this question in your own words.
+An activity like hide-and-seek is associated with play. Some characteristics that make it playful are the searching and surprise, a level of enjoyment and disassocation from work, and an activity with other people. Software testing and debugging does have some elements of play. Especially compared with hide-and-seek, the searching, surprise, and success characteristics are also seen in testing and debugging. For those who enjoy software testing, they may feel like debugging is not work while other hold a different opinion towards it. Testing and debugging can be solitary or a group activity which isn't a requirement of being playful but,  in my experience of debugging, I enjoy it more when working with collegues to debug programs. Overall, I think that software testing and debuggin can be playful for some people.
 
 ### What was the greatest challenge that you faced when completing this assignment?
 
-TODO: Provide a one-paragraph response that answers this question in your own words.
-TODO: Provide a response to this question that is different from any previous answers.
+The biggest challenge with this engineering effort was figuring out where to start. This program had multiple files and a large test suite to structure. Lastly, this had barely any code already written. All of these pieces left choices open and without solid direction. There was many thoughts about what would be most efficient or what would make the most sense to start with.
 
 ### Leveraging your response to the previous question, how did you overcome the challenge?
 
-TODO: Provide a one-paragraph response that answers this question in your own words.
-TODO: Provide a response to this question that is different from any previous answers.
+Fortunately, we were questioned and forced to think through how we wanted to start coding in our lab session. My collegues and I started on the util file and util test cases. since we could model it closely off of other projects we had already completed. From there, we moved to the palindrome.py file and its test suite. We often had the two files open, the code file and its respective test cases. The test cases were very helpful to understand what the functions are suppose to do. Lastly, we moved to the main.py file and its test case. I think was a pretty successful course of action as it made sense for me to complete and I was able to complete it without needing to jump around too much. 
