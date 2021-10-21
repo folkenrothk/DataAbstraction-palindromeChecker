@@ -19,6 +19,7 @@ cli = typer.Typer()
 
 
 class PalindromeCheckingApproach(str, Enum):
+    """Determine which approach is being called."""
 
     is_palindrome_recursive = "recursive"
     is_palindrome_reverse = "reverse"

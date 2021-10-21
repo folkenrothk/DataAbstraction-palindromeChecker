@@ -102,7 +102,7 @@ def test_palindromechecker_recursive_is_palindrome():
     assert "civic" in result.stdout
 ```
 
-TODO: Write at least one paragraph to explain the request source code
+This test case is for the command-line interface created in the main file. This test is written like a function named test_palindromechecker_recursive_is_palindrome. From the multiline comment, we can tell that this test case is to assurve that the command-line interface works with the recursive approach. It uses the runner invoke to interact with the command-line interface with theinputs of "--word civic --approach recursive. The first assert statement checks to make sure that there is not an error and that it exits with an exit code 0. The rest of the  assertions below check if the result has mention of recursive, civic, and "Yes, it is!" and not reverse. 
 
 #### An example of a test case for the `util` module of the `palindromechecker`
 
@@ -113,7 +113,7 @@ def test_human_readable_boolean_true():
     true_value_human_readable = util.get_human_readable_boolean(true_value)
     assert true_value_human_readable == "Yes, it is!"
 ```
-TODO: Write at least one paragraph to explain the request source code
+This test case is one from the util test suite. The code starts like degining a function named test_human_readable_boolean. From the multiline comment, we know it assures that the human_readable true boolean works correctly. This test case is set up with Pytest. It has the static input as True. It tests the function get_human_readable_boolean from the util file with the input. It then asserts that the actual value with the expected value of "Yes, it is!".
 
 #### An example of a test case for the `palindrome` module of the `palindromechecker`
 
@@ -124,7 +124,7 @@ def test_short_palindrome_word_recursive():
     result = palindrome.is_palindrome_recursive(word)
     assert result is True
 ```
-TODO: Write at least one paragraph to explain the request source code
+This test case is one from the palindrome test suite. The code starts like defining a function named test_short_palindrome_word_recursive. From the multiline comment, we know that this test assures that the short palindrome civic is recognized correctly. It assigns "word" to the variable word. This word is then used with the recursive function to test if the function is working. Since this is using Pytest, it uses the input word, the function is_palindrome_recursive, and then asserting that the actual output matches the expected output that we assigned.
 
 ## Professional Development
 
@@ -134,7 +134,7 @@ An activity like hide-and-seek is associated with play. Some characteristics tha
 
 ### What was the greatest challenge that you faced when completing this assignment?
 
-The biggest challenge with this engineering effort was figuring out where to start. This program had multiple files and a large test suite to structure. Lastly, this had barely any code already written. All of these pieces left choices open and without solid direction. There was many thoughts about what would be most efficient or what would make the most sense to start with.
+The biggest challenge with this engineering effort was figuring out where to start. This program had multiple files and a large test suite to structure. There are three files (main, palindrome, util) and then three respective test suites. Lastly, this had barely any code already written. I was excited for the prospect of finishing so much code and building my coding confidence but is daunting to stare at. All of these pieces left choices open and without solid direction. There was many thoughts about what would be most efficient or what would make the most sense to start with. 
 
 ### Leveraging your response to the previous question, how did you overcome the challenge?
 
