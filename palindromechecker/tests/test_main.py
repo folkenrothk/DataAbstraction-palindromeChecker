@@ -7,11 +7,10 @@ from typer.testing import CliRunner
 
 runner = CliRunner()
 
+
 def test_palindromechecker_recursive_is_palindrome():
     """Ensure that the command-line interface works for recursive approach."""
-    result = runner.invoke(
-        cli, ["--word", "civic", "--approach", "recursive"]
-    )
+    result = runner.invoke(cli, ["--word", "civic", "--approach", "recursive"])
     assert result.exit_code == 0
     assert "recursive" in result.stdout
     assert "reverse" not in result.stdout

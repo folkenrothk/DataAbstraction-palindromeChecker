@@ -1,4 +1,4 @@
-"""Test Suite: determine if each palindrome algorithm is working properly"""
+"""Test Suite: determine if each palindrome algorithm is working properly."""
 
 # Reference:
 # https://docs.pytest.org/en/6.2.x/

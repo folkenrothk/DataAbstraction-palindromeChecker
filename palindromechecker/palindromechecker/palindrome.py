@@ -5,7 +5,7 @@
 
 
 def to_chars(word: str) -> str:
-    """Changing the string to chars in a string"""
+    """Change the string to chars in a string."""
     word = word.lower()
     letters = ""
     for _ in word:
@@ -15,7 +15,7 @@ def to_chars(word: str) -> str:
 
 
 def is_palindrome(word: str) -> bool:
-    """Use the recursive method to find if the word is a palindrome"""
+    """Use the recursive method to find if the word is a palindrome."""
     if len(word) <= 1:
         return True
     else:
@@ -23,12 +23,12 @@ def is_palindrome(word: str) -> bool:
 
 
 def is_palindrome_recursive(word: str) -> bool:
-    """Modeling the textbook; Use is_palindrome which is the recursive method"""
+    """Modeling the textbook; Use is_palindrome which is the recursive method."""
     return is_palindrome(to_chars(word))
 
 
 def is_palindrome_reverse(word: str) -> bool:
-    """Use the reverse method to find if the word is a palindrome"""
+    """Use the reverse method to find if the word is a palindrome."""
     to_chars(word)
     temp = word[::-1]
     return temp == word

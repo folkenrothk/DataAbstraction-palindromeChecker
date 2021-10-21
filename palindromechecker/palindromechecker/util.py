@@ -1,4 +1,4 @@
-"""Implement the utilities (reading booleans) needed for this program"""
+"""Implement the utilities (reading booleans) needed for this program."""
 
 
 def get_human_readable_boolean(boolean: bool) -> str:
