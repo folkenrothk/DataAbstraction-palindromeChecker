@@ -59,9 +59,9 @@ def palindromechecker(
     )
     if approach.value == PalindromeCheckingApproach.is_palindrome_recursive:
         result = palindrome.is_palindrome_recursive(word)
-        result = util.get_human_readable_boolean(result)
+        strResult = util.get_human_readable_boolean(result)
     elif approach.value == PalindromeCheckingApproach.is_palindrome_reverse:
         result = palindrome.is_palindrome_reverse(word)
-        result = util.get_human_readable_boolean(result)
+        strResult = util.get_human_readable_boolean(result)
     console.print()
-    console.print(":grinning_squinting_face: Is this word a palindrome? " + str(result))
+    console.print(":grinning_squinting_face: Is this word a palindrome? " + strResult)

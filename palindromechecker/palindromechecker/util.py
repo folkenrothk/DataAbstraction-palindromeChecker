@@ -7,5 +7,4 @@ def get_human_readable_boolean(boolean: bool) -> str:
     if boolean is True:
         return "Yes, it is!"
     # the provided answer is False
-    elif boolean is False:
-        return "No, it is not!"
+    return "No, it is not!"
